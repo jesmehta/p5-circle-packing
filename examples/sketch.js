@@ -1,13 +1,11 @@
-// let rL, rH, n, k, rMax;
 let myFoam;
-let r0Min,r0Max,count,attempts,rMax;    //global because mouseClicked(), draw() is also using these
+let r0Min,r0Max,count,attempts,rMax;    //global because mouseClicked(), draw() etc also using these
 
 function setup()
 {
   createCanvas(800,500);
 
   //for density control
-  //balance small radii range with large numbers and vice versa
   r0Min = 5;
   r0Max = 5;
   rMax = 50;
