@@ -71,3 +71,15 @@ function mouseClicked()
   print("spliced", myFoam.length);
   myFoam = getCirPack(r0Min,r0Max,count,attempts,rMax);
 }
+
+function keyTyped()
+{ 
+  // print("Keypressed");
+  if(key === 's')
+  {
+  saveCanvas("CirPack Tests " + frameCount +".jpg");
+  print("file saved");
+
+  }
+  return false;
+}
