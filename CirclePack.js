@@ -201,4 +201,4 @@ function compareDist(x1,y1,x2,y2,r1,r2)
 
 // Expose a single global symbol
 window.CirclePacking = window.CirclePacking || {};
-window.CirclePacking.getCP = getCP;
+window.CirclePacking.getCirPack = getCirPack;
