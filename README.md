@@ -20,15 +20,15 @@ function getCirPack(minInitRadius, maxInitRadius, circleCount, maxAttempts, maxF
 
 The function uses an Initial diameter for every circle, a Final diameter where the circle s
 
-Initial diameter : minInitRadius, maxInitRadius  
+*Initial diameter : minInitRadius, maxInitRadius*  
 These two parameters define a range for the starting ~radius~ diameter, actually. The actual diameter for each circle is a random value between these two values.
 
-Number of circles : circleCount  
+*Number of circles : circleCount*  
 Specifies the max number of individual circles to be generated. This limit may not be reached, and you can specify a significantly high number to make sure a maximum possible number of circles is generated.
 
-How hard to try finding spaces : maxAttempts  
+*How hard to try finding spaces : maxAttempts*  
 Specifies the number of attempts to try to find a viable location for each new circle before giving up. A high enough number ensures best possible packing, while low numbers give you a spaced out result.
 
-Final diameter : maxRadius
+*Final diameter : maxRadius*  
 The size of the circle at which it is flagged to stop growing any more. If the value is large, it removes an upper limit to the circle's growth, but the actual limit may never be reached.
 
