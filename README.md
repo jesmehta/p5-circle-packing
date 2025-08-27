@@ -2,17 +2,18 @@
 
 A p5.js circle packing generator.
 
-## Use via <script> (no npm)
+## Use via `<script>` (no npm)
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js"></script>
 <script src="https://jesmehta.github.io/p5-circle-packing/CirclePack.js"></script>
 <script>
-  const foam = CirclePacking.getCP(20, 25, 75, 1000, 50);
+  const foam = CirclePacking.getCirclePacking(20, 25, 75, 1000, 50);
 </script>
 ````
 
-A circle packing function that returns a canvas full of tangentially touching circles.
-Input parameters :    
+A circle packing function that returns a canvas full of tangentially touching circles.  
+
+## Input parameters :    
 
 ````
 function getCirPack(minInitRadius, maxInitRadius, circleCount, maxAttempts, maxFinalRadius)
@@ -31,4 +32,18 @@ Specifies the number of attempts to try to find a viable location for each new c
 
 **Final diameter : maxRadius**  
 The size of the circle at which it is flagged to stop growing any more. If the value is large, it removes an upper limit to the circle's growth, but the actual limit may never be reached.
+
+## Outputs
+Catch the output in a variable to use it further  
+````
+let foam = CirclePacking.getCirclePacking(20, 25, 75, 1000, 50);
+````
+
+The variable foam now contains a list of circle objects, each with the following properties
+location : x, y
+size : bubRadius
+
+Access these and use them further by cycling through the list using a for loop.
+
+## Examples
 
