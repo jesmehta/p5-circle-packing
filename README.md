@@ -39,9 +39,9 @@ Catch the output in a variable to use it further
 let foam = CirclePacking.getCirclePacking(20, 25, 75, 1000, 50);
 ````
 
-The variable foam now contains a list of circle objects, each with the following properties
-location : x, y
-size : bubRadius
+The variable `foam` now contains a list of circle objects, each with the following properties
+**location : x, y**
+**size : bubRadius**
 
 Access these and use them further by cycling through the list using a for loop.
 
