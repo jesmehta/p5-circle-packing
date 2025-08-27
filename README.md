@@ -11,14 +11,14 @@ A p5.js circle packing generator.
 </script>
 ````
 
-A circle packing function that returns a canvas full of tangentialy touching circles.
+A circle packing function that returns a canvas full of tangentially touching circles.
 Input parameters :    
 
 ````
 function getCirPack(minInitRadius, maxInitRadius, circleCount, maxAttempts, maxFinalRadius)
 ````
 
-The function uses an Initial diameter for every circle, a Final diameter where the circle s
+The function the following parameters :  
 
 **Initial diameter : minInitRadius, maxInitRadius**  
 These two parameters define a range for the starting ~radius~ diameter, actually. The actual diameter for each circle is a random value between these two values.
