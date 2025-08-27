@@ -19,7 +19,7 @@ A circle packing function that returns a canvas full of tangentially touching ci
 function getCirPack(minInitRadius, maxInitRadius, circleCount, maxAttempts, maxFinalRadius)
 ````
 
-The function the following parameters :  
+The function takes the following parameters :  
 
 **Initial diameter : minInitRadius, maxInitRadius**  
 These two parameters define a range for the starting ~radius~ diameter, actually. The actual diameter for each circle is a random value between these two values.
