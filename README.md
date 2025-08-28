@@ -107,6 +107,13 @@ In the following 4 examples, all other parameters being the same, the effect of 
 
 ---
 
-An interesting result, when the max initial size and the max final size are close values, while there is a wide range in the initial starting values.
+An interesting result, when the max initial size and the max final size are close values, while there is a wide range in the initial starting values.  
+
 ![](./examples/CirPack_Tests_13.jpg)
+
+## Applications
+
+The primary function, `getCirPack()` generates and returns a field of tangentially touching circles.
+The array that it returns can also be further used to do create other packing shapes at that location and size.
+The properties of the objects in the array can also be manipulated to create other visuals.
 
