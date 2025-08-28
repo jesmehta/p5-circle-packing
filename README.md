@@ -47,4 +47,66 @@ The variable `foam` now contains a list of circle objects, each with the followi
 Access these and use them further by cycling through the list using a for loop.
 
 ## Examples
+Effects of changing parameters on the outcome. All parameters are "large" or "small" relative to the canvas size. The same parameters on a different canvas size will give very different resukts.
+
+Green circles are default, while red circles are those that have reached `maxRadius`  
+
+The parameters are listed in the images.
+
+![](./examples/CirPack_Tests_03.jpg)
+- No variation in starting size,  
+- little difference in initial and final size, and 
+- a reachable final count  
+gives a mostly uniform field with spaces.
+
+---
+  
+  
+![](./examples/CirPack_Tests_04.jpg)  
+![](./examples/CirPack_Tests_14.jpg)  
+- No variation in starting size,  
+- little difference in initial and final size, and 
+- a very large (and unreachable) final count  
+gives a very uniform field with no spaces.  
+
+The rMax parameter makes little difference in the above two examples since the circle count itself is so high that the packed circles will never reach the upper limit.
+
+---
+
+
+![](./examples/CirPack_Tests_05.jpg)
+- No variation in starting size,  
+- Larger difference in initial and final sizes,  
+- small final count,  
+gives a more varying field, a mix of large and small circles, with more spaces.  
+
+---
+
+![](./examples/CirPack_Tests_06.jpg)
+- Greater variation in starting size,  
+- Larger difference in initial and final sizes,  
+- small final count,  
+gives a more varying field, a mix of large and small circles, with more spaces.  
+
+---
+
+![](./examples/CirPack_Tests_07.jpg)
+- Greater variation in starting size,  
+- Larger difference in initial and final sizes,  
+- very small final count,  
+gives a more varying field, a mix of large and small circles, with more spaces.  
+
+---
+
+In the following 4 examples, all other parameters being the same, the effect of the maxAttempts parameter is seen - the field grows lesser in density and the final count of circles reduces since the algorithm gives up faster.  
+
+![](./examples/CirPack_Tests_08.jpg)
+![](./examples/CirPack_Tests_09.jpg)
+![](./examples/CirPack_Tests_10.jpg)
+![](./examples/CirPack_Tests_11.jpg)
+
+---
+
+An interesting result, when the max initial size and the max final size are close values, while there is a wide range in the initial starting values.
+![](./examples/CirPack_Tests_13.jpg)
 
