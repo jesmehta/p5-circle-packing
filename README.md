@@ -137,3 +137,11 @@ Dan Shiffman over at the Coding Train, whose Coding Challenges first introduced 
 Saber Khan, who organises CCFest; this version of the circle packing approach had been languishing in my files for a couple of years atleast. it was finally when preparing to take a workshop at CCFest that I finally decided that this was better off published and public.
 
 It is absolutely a micro-library with more-or-less one single function and purpose, but it's my first code contribution, and I am rather pleased with myself.
+
+
+#ToDo
+
+- actual example files upload
+- svg export example, create, upload
+- links to Dan, Saber, etc
+- jsdeliver link
