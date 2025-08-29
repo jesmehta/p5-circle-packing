@@ -1,6 +1,6 @@
 # p5-circle-packing
 
-A p5.js circle packing generator.
+A p5.js circle packing generator.  
 The circle packing function returns a canvas full of tangentially touching circles.
 
 ![](./examples/CirPack_egs_06.jpg)  
