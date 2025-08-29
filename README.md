@@ -124,7 +124,44 @@ The primary function, `getCirPack()` generates and returns a field of tangential
 The array that it returns can also be further used to do create other packing shapes at that location and size.
 The properties of the objects in the array can also be manipulated to create other visuals.
 
-Nested circles within the packing.  
+### Nested circles within the packing.
+<p>
+  <a href="https://jesmehta.github.io/p5-circle-packing/examples/CirPack_03_Nested/">
+    <img src="./examples/CirPack_egs_06.jpg" alt="Nested circles example 1" width="320" />
+  </a>
+  <a href="https://jesmehta.github.io/p5-circle-packing/examples/CirPack_03_Nested/">
+    <img src="./examples/CirPack_egs_07.jpg" alt="Nested circles example 2" width="320" />
+  </a>
+</p>
+
+### Polygons instead of circles.
+
+<p>
+  <a href="https://jesmehta.github.io/p5-circle-packing/examples/CirPack_02_Polygons/">
+    <img src="./examples/CirPack_egs_04.jpg" alt="Polygon packing example 1" width="320" />
+  </a>
+  <a href="https://jesmehta.github.io/p5-circle-packing/examples/CirPack_02_Polygons/">
+    <img src="./examples/CirPack_egs_05.jpg" alt="Polygon packing example 2" width="320" />
+  </a>
+</p>
+
+### Images instead of circles.
+
+<p>
+  <a href="https://jesmehta.github.io/p5-circle-packing/examples/CirPack_04_Images_Orange/">
+    <img src="./examples/CirPack_egs_01.jpg" alt="Image packing (orange) example 1" width="320" />
+  </a>
+  <a href="https://jesmehta.github.io/p5-circle-packing/examples/CirPack_04_Images_Orange/">
+    <img src="./examples/CirPack_egs_03.jpg" alt="Image packing (orange) example 2" width="320" />
+  </a>
+  <a href="https://jesmehta.github.io/p5-circle-packing/examples/CirPack_05_Images_Cats/">
+    <img src="./examples/CirPack_egs_02.jpg" alt="Image packing (cats) example" width="320" />
+  </a>
+</p>
+
+
+
+<!-- Nested circles within the packing.  
 [![](./examples/CirPack_egs_06.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_03_Nested/)
 [![](./examples/CirPack_egs_07.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_03_Nested/)
 
@@ -135,7 +172,7 @@ Polygons instead of circles.
 Images instead of circles.  
 [![](./examples/CirPack_egs_01.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_04_Images_Orange/)  
 [![](./examples/CirPack_egs_03.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_04_Images_Orange/)  
-[![](./examples/CirPack_egs_02.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_05_Images_Cats/)
+[![](./examples/CirPack_egs_02.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_05_Images_Cats/) -->
 
 ## Credits and acknowledgements
 
