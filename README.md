@@ -3,23 +3,24 @@
 A p5.js circle packing generator.
 
 ## Use via `<script>` (no npm)
+
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js"></script>
 <script src="https://jesmehta.github.io/p5-circle-packing/CirclePack.js"></script>
 <script>
   const foam = CirclePacking.getCirclePacking(20, 25, 75, 1000, 50);
 </script>
-````
+```
 
-A circle packing function that returns a canvas full of tangentially touching circles.  
+A circle packing function that returns a canvas full of tangentially touching circles.
 
-## Input parameters :    
+## Input parameters :
 
-````
+```
 function getCirPack(minInitRadius, maxInitRadius, circleCount, maxAttempts, maxFinalRadius)
-````
+```
 
-The function takes the following parameters :  
+The function takes the following parameters :
 
 **Initial diameter : minInitRadius, maxInitRadius**  
 These two parameters define a range for the starting ~radius~ diameter, actually. The actual diameter for each circle is a random value between these two values.
@@ -34,71 +35,77 @@ Specifies the number of attempts to try to find a viable location for each new c
 The size of the circle at which it is flagged to stop growing any more. If the value is large, it removes an upper limit to the circle's growth, but the actual limit may never be reached.
 
 ## Outputs
-Catch the output in a variable to use it further  
-````
-let foam = CirclePacking.getCirclePacking(20, 25, 75, 1000, 50);
-````
 
-The variable `foam` now contains a list of circle objects, each with the following properties  
+Catch the output in a variable to use it further
+
+```
+let foam = CirclePacking.getCirclePacking(20, 25, 75, 1000, 50);
+```
+
+The variable `foam` now contains a list of circle objects, each with the following properties
 
 **Location : x, y**  
-**Size : bubRadius**  
+**Size : bubRadius**
 
 Access these and use them further by cycling through the list using a for loop.
 
 ## Examples
+
 Effects of changing parameters on the outcome. All parameters are "large" or "small" relative to the canvas size. The same parameters on a different canvas size will give very different resukts.
 
-Green circles are default, while red circles are those that have reached `maxRadius`  
+Green circles are default, while red circles are those that have reached `maxRadius`
 
 The parameters are listed in the images.
 
 ![](./examples/CirPack_Tests_03.jpg)
-- No variation in starting size,  
-- little difference in initial and final size, and 
+
+- No variation in starting size,
+- little difference in initial and final size, and
 - a reachable final count  
-gives a mostly uniform field with spaces.
+  gives a mostly uniform field with spaces.
 
 ---
-  
-  
+
 ![](./examples/CirPack_Tests_04.jpg)  
-![](./examples/CirPack_Tests_14.jpg)  
-- No variation in starting size,  
-- little difference in initial and final size, and 
+![](./examples/CirPack_Tests_14.jpg)
+
+- No variation in starting size,
+- little difference in initial and final size, and
 - a very large (and unreachable) final count  
-gives a very uniform field with no spaces.  
+  gives a very uniform field with no spaces.
 
 The rMax parameter makes little difference in the above two examples since the circle count itself is so high that the packed circles will never reach the upper limit.
 
 ---
 
-
 ![](./examples/CirPack_Tests_05.jpg)
-- No variation in starting size,  
-- Larger difference in initial and final sizes,  
+
+- No variation in starting size,
+- Larger difference in initial and final sizes,
 - small final count,  
-gives a more varying field, a mix of large and small circles, with more spaces.  
+  gives a more varying field, a mix of large and small circles, with more spaces.
 
 ---
 
 ![](./examples/CirPack_Tests_06.jpg)
-- Greater variation in starting size,  
-- Larger difference in initial and final sizes,  
+
+- Greater variation in starting size,
+- Larger difference in initial and final sizes,
 - small final count,  
-gives a more varying field, a mix of large and small circles, with more spaces.  
+  gives a more varying field, a mix of large and small circles, with more spaces.
 
 ---
 
 ![](./examples/CirPack_Tests_07.jpg)
-- Greater variation in starting size,  
-- Larger difference in initial and final sizes,  
+
+- Greater variation in starting size,
+- Larger difference in initial and final sizes,
 - very small final count,  
-gives a more varying field, a mix of large and small circles, with more spaces.  
+  gives a more varying field, a mix of large and small circles, with more spaces.
 
 ---
 
-In the following 4 examples, all other parameters being the same, the effect of the maxAttempts parameter is seen - the field grows lesser in density and the final count of circles reduces since the algorithm gives up faster.  
+In the following 4 examples, all other parameters being the same, the effect of the maxAttempts parameter is seen - the field grows lesser in density and the final count of circles reduces since the algorithm gives up faster.
 
 ![](./examples/CirPack_Tests_08.jpg)
 ![](./examples/CirPack_Tests_09.jpg)
@@ -107,7 +114,7 @@ In the following 4 examples, all other parameters being the same, the effect of 
 
 ---
 
-An interesting result, when the max initial size and the max final size are close values, while there is a wide range in the initial starting values.  
+An interesting result, when the max initial size and the max final size are close values, while there is a wide range in the initial starting values.
 
 ![](./examples/CirPack_Tests_13.jpg)
 
@@ -118,17 +125,17 @@ The array that it returns can also be further used to do create other packing sh
 The properties of the objects in the array can also be manipulated to create other visuals.
 
 Nested circles within the packing.  
-[![](./examples/CirPack_egs_06.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_03_Nested/) 
-[![](./examples/CirPack_egs_07.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_03_Nested/) 
+[![](./examples/CirPack_egs_06.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_03_Nested/)
+[![](./examples/CirPack_egs_07.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_03_Nested/)
 
 Polygons instead of circles.  
-[![](./examples/CirPack_egs_04.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_02_Polygons/) 
-[![](./examples/CirPack_egs_05.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_02_Polygons/) 
+[![](./examples/CirPack_egs_04.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_02_Polygons/)
+[![](./examples/CirPack_egs_05.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_02_Polygons/)
 
 Images instead of circles.  
 [![](./examples/CirPack_egs_01.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_04_Images_Orange/)  
 [![](./examples/CirPack_egs_03.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_04_Images_Orange/)  
-[![](./examples/CirPack_egs_02.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_05_Images_Cats/)  
+[![](./examples/CirPack_egs_02.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_05_Images_Cats/)
 
 ## Credits and acknowledgements
 
@@ -137,7 +144,6 @@ Dan Shiffman over at the Coding Train, whose Coding Challenges first introduced 
 Saber Khan, who organises CCFest; this version of the circle packing approach had been languishing in my files for a couple of years atleast. it was finally when preparing to take a workshop at CCFest that I finally decided that this was better off published and public.
 
 It is absolutely a micro-library with more-or-less one single function and purpose, but it's my first code contribution, and I am rather pleased with myself.
-
 
 #ToDo
 
