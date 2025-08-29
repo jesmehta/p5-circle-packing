@@ -24,7 +24,7 @@ Make sure to include the p5.js library as well before the script
 <script src="https://cdn.jsdelivr.net/gh/jesmehta/p5-circle-packing@v0.9.0/dist/CirclePack.js"></script>
 
 <script>
-  const foam = CirclePacking.getCirclePacking(20, 25, 75, 1000, 500);
+  const foam = getCirPack(20, 25, 75, 1000, 500);
 </script>
 ```
 
