@@ -60,7 +60,7 @@ Access these and use them further by cycling through the list using a for loop.
 
 ## Examples
 
-Effects of changing parameters on the outcome. All parameters are "large" or "small" relative to the canvas size. The same parameters on a different canvas size will give very different resukts.
+Effects of changing parameters on the outcome. All parameters are "large" or "small" relative to the canvas size. The same parameters on a different canvas size will give very different results.
 
 Green circles are default, while red circles are those that have reached `maxRadius`
 
@@ -192,15 +192,15 @@ Images instead of circles.
 
 ## Credits and acknowledgements
 
-Dan Shiffman over at the Coding Train, whose Coding Challenges first introduced me to the concept of packing circles. His example was my first time playing with packing and it's results. While my algorithm and code are a different approach, I'd like to credit him and thank him simply for the wonderful world of processing and p5 that he opens up to everyone.
+Dan Shiffman over at the Coding Train, whose [Coding Challenges](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH) first introduced me to the concept of packing circles. [His example](https://youtu.be/QHEQuoIKgNE) was my first time playing with packing and it's results. While my algorithm and code are a different approach, I'd like to credit him and thank him simply for the wonderful world of processing and p5 that he opens up to everyone.
 
-Saber Khan, who organises CCFest; this version of the circle packing approach had been languishing in my files for a couple of years atleast. it was finally when preparing to take a workshop at CCFest that I finally decided that this was better off published and public.
+[Saber Khan](https://www.linkedin.com/in/edsaber/), who organises [CCFest](https://ccfest.rocks/); this version of the circle packing approach had been languishing in my files for a couple of years atleast. it was finally when preparing to take a workshop at CCFest that I finally decided that this was better off published and public.
 
 It is absolutely a micro-library with more-or-less one single function and purpose, but it's my first code contribution, and I am rather pleased with myself.
 
-#ToDo
+## ToDo
 
-- actual example files upload
+- ~~actual example files upload~~
 - svg export example, create, upload
-- links to Dan, Saber, etc
+- ~~links to Dan, Saber, etc~~
 - jsdeliver link
