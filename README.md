@@ -117,3 +117,23 @@ The primary function, `getCirPack()` generates and returns a field of tangential
 The array that it returns can also be further used to do create other packing shapes at that location and size.
 The properties of the objects in the array can also be manipulated to create other visuals.
 
+Nested circles within the packing.  
+![](./examples/CirPack_egs_06.jpg)
+![](./examples/CirPack_egs_07.jpg)
+
+Polygons instead of circles.  
+![](./examples/CirPack_egs_04.jpg)
+![](./examples/CirPack_egs_05.jpg)
+
+Images instead of circles.  
+![](./examples/CirPack_egs_01.jpg)
+![](./examples/CirPack_egs_02.jpg)
+![](./examples/CirPack_egs_03.jpg)
+
+## Credits and acknowledgements
+
+Dan Shiffman over at the Coding Train, whose Coding Challenges first introduced me to the concept of packing circles. His example was my first time playing with packing and it's results. While my algorithm and code are a different approach, I'd like to credit him and thank him simply for the wonderful world of processing and p5 that he opens up to everyone.
+
+Saber Khan, who organises CCFest; this version of the circle packing approach had been languishing in my files for a couple of years atleast. it was finally when preparing to take a workshop at CCFest that I finally decided that this was better off published and public.
+
+It is absolutely a micro-library with more-or-less one single function and purpose, but it's my first code contribution, and I am rather pleased with myself.
