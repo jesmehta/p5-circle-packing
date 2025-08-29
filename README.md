@@ -126,9 +126,9 @@ Polygons instead of circles.
 ![](./examples/CirPack_egs_05.jpg)
 
 Images instead of circles.  
-[![](./examples/CirPack_egs_01.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_04_Images_Orange/)
-[![](./examples/CirPack_egs_03.jpg)]((https://jesmehta.github.io/p5-circle-packing/examples/CirPack_04_Images_Orange/))
-[![](./examples/CirPack_egs_02.jpg)]((https://jesmehta.github.io/p5-circle-packing/examples/CirPack_05_Images_Cats/))
+[![](./examples/CirPack_egs_01.jpg)](https://jesmehta.github.io/p5-circle-packing/examples/CirPack_04_Images_Orange/)  
+[![](./examples/CirPack_egs_03.jpg)]((https://jesmehta.github.io/p5-circle-packing/examples/CirPack_04_Images_Orange/))  
+[![](./examples/CirPack_egs_02.jpg)]((https://jesmehta.github.io/p5-circle-packing/examples/CirPack_05_Images_Cats/))  
 
 ## Credits and acknowledgements
 
