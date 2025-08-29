@@ -107,10 +107,17 @@ The rMax parameter makes little difference in the above two examples since the c
 
 In the following 4 examples, all other parameters being the same, the effect of the maxAttempts parameter is seen - the field grows lesser in density and the final count of circles reduces since the algorithm gives up faster.
 
-![](./examples/CirPack_Tests_08.jpg)
+<p>
+  <img src="./examples/CirPack_Tests_08.jpg" alt="CirPack test 08" width="320" />
+  <img src="./examples/CirPack_Tests_09.jpg" alt="CirPack test 09" width="320" />
+  <img src="./examples/CirPack_Tests_10.jpg" alt="CirPack test 10" width="320" />
+  <img src="./examples/CirPack_Tests_11.jpg" alt="CirPack test 11" width="320" />
+</p>
+
+<!-- ![](./examples/CirPack_Tests_08.jpg)
 ![](./examples/CirPack_Tests_09.jpg)
 ![](./examples/CirPack_Tests_10.jpg)
-![](./examples/CirPack_Tests_11.jpg)
+![](./examples/CirPack_Tests_11.jpg) -->
 
 ---
 
