@@ -38,7 +38,7 @@ function getCirPack(minInitRadius, maxInitRadius, circleCount, maxAttempts, maxF
       // fill(128);
       // ellipse(x,y,2,2);
       // growBub();
-      print("attempts ", noOfAttempts);
+      // print("attempts ", noOfAttempts);
       noOfAttempts = 0;
     }
     noOfAttempts++;
