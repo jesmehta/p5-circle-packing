@@ -219,4 +219,4 @@ It is absolutely a micro-library with more-or-less one single function and purpo
 - ~~actual example files upload~~
 - svg export example, create, upload
 - ~~links to Dan, Saber, etc~~
-- jsdeliver link
+- ~~jsdeliver link~~
