@@ -1,27 +1,42 @@
 # p5-circle-packing
 
 A p5.js circle packing generator.
+The circle packing function returns a canvas full of tangentially touching circles.
 
 ![](./examples/CirPack_egs_06.jpg)  
 
-- [Usage](#use-via-script-no-npm)  
+- [Quick Start, with jsdelivr](#quick-start)
+<!-- - [Usage](#use-via-script-no-npm)   -->
 - [Input Parameters](#input-parameters-)  
 - [Output Parameters](#outputs)  
 - [Examples](#examples)  
 - [Applications](#applications)  
 - [Credits](#credits-and-acknowledgements)  
 
-## Use via `<script>` (no npm)
+## Quick Start
 
-```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js"></script>
-<script src="https://jesmehta.github.io/p5-circle-packing/CirclePack.js"></script>
+Include the library directly from `jsdelivr`
+Make sure to include the p5.js library as well before the script   
+
+```
+<script src="https://cdn.jsdelivr.net/npm/p5@1.9.2/lib/p5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/jesmehta/p5-circle-packing@v0.9.0/dist/CirclePack.js"></script>
+
 <script>
-  const foam = CirclePacking.getCirclePacking(20, 25, 75, 1000, 50);
+  const foam = CirclePacking.getCirclePacking(20, 25, 75, 1000, 500);
 </script>
 ```
 
-A circle packing function that returns a canvas full of tangentially touching circles.
+<!-- ## Use via `<script>` (no npm)
+
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/jesmehta/p5-circle-packing@v0.9.0/dist/CirclePack.js"></script>
+<script>
+  const foam = CirclePacking.getCirclePacking(20, 25, 75, 1000, 50);
+</script>
+``` -->
+
 
 ## Input parameters :
 
