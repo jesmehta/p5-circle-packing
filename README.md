@@ -2,6 +2,15 @@
 
 A p5.js circle packing generator.
 
+![](./examples/CirPack_egs_06.jpg)  
+
+- [Usage](#use-via-script-no-npm)  
+- [Input Parameters](#input-parameters-)  
+- [Output Parameters](#outputs)  
+- [Examples](#examples)  
+- [Applications](#applications)  
+- [Credits](#credits-and-acknowledgements)  
+
 ## Use via `<script>` (no npm)
 
 ```html
