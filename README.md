@@ -6,12 +6,13 @@ The circle packing function returns a canvas full of tangentially touching circl
 ![](./examples/CirPack_egs_06.jpg)  
 
 - [Quick Start, with jsdelivr](#quick-start)
-<!-- - [Usage](#use-via-script-no-npm)   -->
 - [Input Parameters](#input-parameters-)  
 - [Output Parameters](#outputs)  
 - [Examples](#examples)  
 - [Applications](#applications)  
 - [Credits](#credits-and-acknowledgements)  
+
+<!-- - [Usage](#use-via-script-no-npm)   -->
 
 ## Quick Start
 
