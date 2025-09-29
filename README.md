@@ -16,7 +16,7 @@ The circle packing function returns a canvas full of tangentially touching circl
 
 ## Quick Start
 
-Include the library directly from `jsdelivr`
+Include the library directly from `jsdelivr`  
 Make sure to include the p5.js library as well before the script   
 
 ```
