@@ -78,7 +78,7 @@ Access these and use them further by cycling through the list using a for loop.
 
 Effects of changing parameters on the outcome. All parameters are "large" or "small" relative to the canvas size. The same parameters on a different canvas size will give very different results.
 
-Green circles are default, while red circles are those that have reached `maxRadius`
+Green circles are the default colour, while red circles are those that have reached `maxRadius`
 
 The parameters are listed in the images.
 
@@ -210,7 +210,7 @@ Images instead of circles.
 
 [Dan Shiffman over at the Coding Train](https://thecodingtrain.com/), whose [Coding Challenges](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH) first introduced me to the concept of packing circles. [His example](https://youtu.be/QHEQuoIKgNE) was my first time playing with packing and it's results. While my algorithm and code are a different approach, I'd like to credit him and thank him simply for the wonderful world of processing and p5 that he opens up to everyone.
 
-[Saber Khan](https://www.linkedin.com/in/edsaber/), who organises [CCFest](https://ccfest.rocks/); this version of the circle packing approach had been languishing in my files for a couple of years atleast. it was finally when preparing to take a workshop at CCFest that I finally decided that this was better off published and public.
+[Saber Khan](https://www.linkedin.com/in/edsaber/), who organises [CCFest](https://ccfest.rocks/); this version of the circle packing approach had been languishing in my files for a couple of years atleast. It took me preparing to take a workshop at CCFest that I finally decided that this was better off polished, published and public.
 
 Read the full story of how this library started with a bookclub [here](https://jesmehta.github.io/CabinetOfCuriosities/fffx/PackingShapes/)
 
